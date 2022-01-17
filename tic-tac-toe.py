@@ -79,13 +79,17 @@ def main():
 
     if check_for_winner(xvariables):
       draw_game_board(lengthwidth=grid_size)
+<<<<<<< HEAD
       print("Congratulations! X has won!")
       '''
+=======
+>>>>>>> 86e2e1944fd2d3acd08e8959f9ead9fecf69d515
       play_again_question = input("Congratulations! X has won! Ready for another round? Y/N ").upper()
       if play_again_question == "Y":
         play_again = True
         reset_board = True
       else:
+<<<<<<< HEAD
       '''
       play_again = False
       print("Thanks for playing! Have a good rest of your day! :)")
@@ -93,14 +97,25 @@ def main():
       draw_game_board(lengthwidth=grid_size)
       print("Congrats Y! You've won!")
       '''
+=======
+        play_again = False
+        print("Thanks for playing! Have a good rest of your day! :)")
+    elif check_for_winner(yvariables):
+      draw_game_board(lengthwidth=grid_size)
+>>>>>>> 86e2e1944fd2d3acd08e8959f9ead9fecf69d515
       play_again_question = input("Congrats Y! You've won! Do you want to play another game? Y/N ").upper()
       if play_again_question == "Y":
         play_again = True
         reset_board = True
       else:
+<<<<<<< HEAD
       '''
       play_again = False
       print("Thanks for playing! Have a good rest of your day! :)")
+=======
+        play_again = False
+        print("Thanks for playing! Have a good rest of your day! :)")
+>>>>>>> 86e2e1944fd2d3acd08e8959f9ead9fecf69d515
     turn = toggle_true_false(turn)
 
 
